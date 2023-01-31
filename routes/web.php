@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Folder\MainController;
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', [MainController::class, 'home']);
