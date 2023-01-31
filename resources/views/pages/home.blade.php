@@ -4,8 +4,10 @@
 <h1>Titoli dei film</h1>
 
 <ul>
+    @foreach ($movies as $movie)
     <li>
-        {{$movies.title}}
+        {{$movie['title']}}
     </li>
+    @endforeach
 </ul>
 @endsection
