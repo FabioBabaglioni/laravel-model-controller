@@ -1,1 +1,8 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.ms_card {
+    width: calc(95% / 4);
+    margin: 5px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+}
